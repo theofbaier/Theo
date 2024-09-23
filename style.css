@@ -8,17 +8,17 @@ body {
     margin: 0;
     text-align: left;
     position: relative;
-    top: 360px;
+    top: 420px;
     left: 44%;
     font-size: 5em;
 
-    animation-duration: 3s;
+    animation-duration: 1.5s;
     animation-name: fadein;
     animation-fill-mode: forwards;
 }
 
-#secondarytitle {
-    animation-duration: 3s;
+.subtitle {
+    animation-duration: 1.5s;
     animation-name: fadein2;
     animation-fill-mode: forwards;
 }
@@ -28,15 +28,15 @@ body {
     margin: 0;
     text-align: left;
     position: relative;
-    top: 360px;
+    top: 750px;
     left: 38%;
-    font-size: 5em; 
+    font-size: 5em;
 
 }
 
 #description {
     position: relative;
-    top: 350px;
+    top: 750px;
     margin-left: 400px;
     margin-right: 400px;
     color: #ffffff;
@@ -51,10 +51,10 @@ body {
     height: 460px;
     position: relative;
     left: 340px;
-    top: 10px;
+    top: 80px;
 
-    animation-duration: 3s;
-    animation-name: fadein2;
+    animation-duration: 1.5s;
+    animation-name: fadein;
     animation-fill-mode: forwards;
 }
 
@@ -84,8 +84,8 @@ body {
     white-space: nowrap;
     border-radius: 100px;
     position: relative;
-    left: 41%;
-    top: 400px;
+    left: 42%;
+    top: 750px;
     box-shadow: 0 0 calc(var(--active) * 3em) calc(var(--active) * 1em) hsl(260 97% 61% / 0.75),
           0 0em 0 0 hsl(260 calc(var(--active) * 97%) calc((var(--active) * 50%) + 30%)) inset,
           0 -0.05em 0 0 hsl(260 calc(var(--active) * 97%) calc(var(--active) * 60%)) inset;
@@ -293,17 +293,32 @@ body {
 @keyframes fadein {
     0% {
         opacity: 0;
+        font-size: 0;
     }
+
+    70% {
+        opacity: 0.4;
+        font-size: 70;
+    }
+
     100%{
         opacity: 1;
+
+        font-size: 100;
     }
 }
 
 @keyframes fadein2 {
     0% {
         opacity: 0;
+        font-size: 0;
+    }
+    70% {
+        opacity: 0.4;
+        font-size: 70;
     }
     100%{
         opacity: 0.6;
+        font-size: 100;
     }
 }

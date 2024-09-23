@@ -8,7 +8,7 @@ body {
     margin: 0;
     text-align: left;
     position: relative;
-    top: 420px;
+    top: 480px;
     left: 44%;
     font-size: 5em;
 
@@ -28,15 +28,16 @@ body {
     margin: 0;
     text-align: left;
     position: relative;
-    top: 750px;
-    left: 38%;
+    top: 850px;
+    left: 39%;
     font-size: 5em;
 
 }
 
 #description {
     position: relative;
-    top: 750px;
+    top: 850px;
+    left: 20px;
     margin-left: 400px;
     margin-right: 400px;
     color: #ffffff;
@@ -50,8 +51,8 @@ body {
 #pp {
     height: 460px;
     position: relative;
-    left: 340px;
-    top: 80px;
+    left: 380px;
+    top: 140px;
 
     animation-duration: 1.5s;
     animation-name: fadein;
@@ -84,8 +85,8 @@ body {
     white-space: nowrap;
     border-radius: 100px;
     position: relative;
-    left: 42%;
-    top: 750px;
+    left: 44%;
+    top: 850px;
     box-shadow: 0 0 calc(var(--active) * 3em) calc(var(--active) * 1em) hsl(260 97% 61% / 0.75),
           0 0em 0 0 hsl(260 calc(var(--active) * 97%) calc((var(--active) * 50%) + 30%)) inset,
           0 -0.05em 0 0 hsl(260 calc(var(--active) * 97%) calc(var(--active) * 60%)) inset;
